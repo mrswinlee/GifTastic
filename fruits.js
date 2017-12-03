@@ -30,6 +30,8 @@
               
               fruitImage.attr("src", results[i].images['480w_still'].url);
 
+              var still = results[i].images.fixed_height_still.url
+              var animate = results[i].images.fixed_height.url
 
               fruitImage.attr("data-state", "results[i].images.fixed_height_still.url");
               fruitImage.attr("data-animate", "results[i].images.fixed_height.url");
